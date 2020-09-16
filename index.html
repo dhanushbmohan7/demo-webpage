@@ -8,13 +8,16 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Demo Title</title>
-
+  <title>Profile</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/small-business.css" rel="stylesheet">
+  
   
 
 </head>
@@ -22,9 +25,9 @@
 <body class="dark-mode">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Welcome</a>
+      <a class="navbar-brand" href="#">Sajun</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,7 +42,7 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="service">Services</a>
+            <a class="nav-link" href="service.html">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -55,15 +58,50 @@
     <!-- Heading Row -->
     <div class="row align-items-center my-5">
       <div class="col-lg-7">
-        <img class="img-fluid rounded mb-4 mb-lg-0" src="https://scontent.fcok1-1.fna.fbcdn.net/v/t1.0-9/71485618_2366996296949676_6196804734796431360_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=LiHVfRw1zoUAX_LCx5e&_nc_ht=scontent.fcok1-1.fna&oh=8febae684764cd097f38bee287cb9070&oe=5F7BDFFB" alt="pic" height="400px" width="350px">
+        <div class="container">
+          
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="https://scontent.fcok1-1.fna.fbcdn.net/v/t1.0-9/70446096_2425871897495301_3973904501915516928_o.jpg?_nc_cat=104&_nc_sid=174925&_nc_ohc=9yuMRZTqoW8AX_14yDl&_nc_ht=scontent.fcok1-1.fna&oh=6050007f4ce0d0985a83f549d23484b4&oe=5F87C740" alt="saju" width="100%">
+              </div>
+        
+              <div class="item">
+                <img src="https://scontent.fcok1-1.fna.fbcdn.net/v/t1.0-9/66708251_2311297908952701_7274663005776773120_o.jpg?_nc_cat=105&_nc_sid=174925&_nc_ohc=a7hLIXghpssAX-CQA1w&_nc_ht=scontent.fcok1-1.fna&oh=f6da5b1ddbfb0a0e88b464386966302d&oe=5F87E315" alt="saju" width="100%">
+              </div>
+            
+              <div class="item">
+                <img src="https://scontent.fcok1-1.fna.fbcdn.net/v/t1.0-9/67528265_2333579530057872_7504600518124109824_n.jpg?_nc_cat=102&_nc_sid=174925&_nc_ohc=hWDwm97cBOwAX8bJurN&_nc_ht=scontent.fcok1-1.fna&oh=0e3025c9f1a6d4b453249826c2d3c0be&oe=5F861E5A" alt="saju" width="100%">
+              </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-5">
-        <h1 class="font-weight-light">Ashith Kv</h1>
-        <p>This is apage for Ashith</p>
+        <h1 class="font-weight-light">Sajun Rubixz</h1>
+        <p>Managing Director At Rubixz Gallery</p>
         <br>
         <button onclick="darkMode()" class="btn btn-secondary">Enable/Disable darkmode</button>
-        <a class="btn btn-primary" href="#">help</a>
+        <a class="btn btn-primary" href="help.html">help</a>
       </div>
       <!-- /.col-md-4 -->
     </div>
