@@ -112,16 +112,18 @@
   <!-- Bootstrap core JavaScript -->
   <script>
     
-    if (navigator.vibrate){
+    
+    function darkMode(){
+      if (navigator.vibrate){
       console.log("vibrator started")
       window.navigator.vibrate(200);
+        var element=document.body;
+        element.classList.toggle("dark-mode")
     }
     else{
       console.log("no vibrator detectd");
     }
-    function darkMode(){
-      var element=document.body;
-        element.classList.toggle("dark-mode")
+      
 
     }
   </script>
